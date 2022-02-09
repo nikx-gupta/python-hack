@@ -10,3 +10,9 @@ cond2 = not p or not q
 
 print("Always: cond1: ", cond1, " = cond2: ", cond2)
 
+# variable swapping
+v1 = 5
+v2 = 9
+
+v1, v2 = v2, v1
+
